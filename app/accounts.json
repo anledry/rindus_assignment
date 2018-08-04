@@ -1,0 +1,28 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Indiana",
+        "last_name": "Jones",
+        "email": "indiana@hotmail.com",
+        "password": "egipt",
+        "address": "United States"
+      },
+      {
+        "id": 2,
+        "name": "Jonh",
+        "last_name": "Wick",
+        "email": "jonh@yahoo.com",
+        "password": "mydog",
+        "address": "Los Angeles"
+      },
+      {
+        "id": 3,
+        "name": "Steve",
+        "last_name": "Rogers",
+        "email": "cap@gmail.com",
+        "password": "c2hpZWxk",
+        "address": "Brooklyn"
+      }
+    ]
+  }
