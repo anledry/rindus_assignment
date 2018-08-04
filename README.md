@@ -38,7 +38,7 @@ Result: *"response": "Hi Steve welcome to Amazon!"*
 
 * Image
 
-![](/home/anledry/git/rindus_assignment/documentation/image/test01.png) 
+![ ](https://raw.githubusercontent.com/anledry/rindus_assignment/master/documentation/image/test01.png  "Image")
 
 ## License
 Feel free to use this code
