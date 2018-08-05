@@ -25,8 +25,6 @@ Implementation of a Restful API to testing a shopping website
 ## Usage and examples
 * For try the REST app was used Advance REST client
 
-* Example
-
 ```
     {
         "email": "cap@gmail.com",
@@ -36,10 +34,16 @@ Implementation of a Restful API to testing a shopping website
 Result: *"response": "Hi Steve welcome to Amazon!"*
 ```
 
-* Image
+**Image**
 
 ![ ](https://raw.githubusercontent.com/anledry/rindus_assignment/master/documentation/image/test01.png  "Image")
 
+* Using curl
+
+```
+curl -X POST -H "Content-Type: application/json" -d '{"email":"cap@gmail.com","password":"c2hpZWxk"}' http://localhost:8080/login/
+
+```
+
 ## License
 Feel free to use this code
-
