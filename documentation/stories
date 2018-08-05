@@ -1,0 +1,89 @@
+Description
+As a user, I want to login into the website so I can shop.
+
+Acceptance Criteria
+This user story is considered implemented if the following acceptance criteria are met:
+
+Given the login screen 
+When the user introduces a valid email
+And the password is valid
+Then The system Logged in.
+
+Given the login screen
+When the user introduces an invalid email
+Then The system will show a loging error message
+
+Given the login screen
+When the user introduces a valid email
+And the password is invalid 
+Then The system will show a loging error message
+
+
+Description
+As a user, I want to list the products so I can choose one.
+
+Acceptance Criteria
+This user story is considered implemented if the following acceptance criteria are met:
+
+Given the search field
+When the user introduces an item to search
+And the user presses the searching button
+Then The system should show a products list related with the search criteria
+
+Given the search field
+When the user introduces a (something unrelated with product)
+And press the searching button
+Then The system should show a message indicating "The search criteria didn't match any products"
+
+Given the category menu
+When the user presses a product category
+Then The system should show a products list related with the pressed category
+
+
+Description
+As a user, I want to see the products details obtain by search so I can shop.
+
+Acceptance Criteria
+This user story is considered implemented if the following acceptance criteria are met:
+
+Given the product list page
+When the user selects a product
+Then The system should show the product details
+
+Description
+As a user, I want to add products to the shopping cart
+
+Given the product details
+When the user press the "Add to the cart" button
+Then the system should show "The product were added to the cart" with the cart subtotal
+
+Description
+As a user, I want to proceed to the checkout process
+
+Given the checkout page process
+When the user press the "Proceed to checkout" button
+Then the system should show the login page
+
+
+Given the login page
+When the user comes from the checkout process
+And the user introduces a valid email and password
+Then the system should show the delivery addresses selection page
+
+
+Given the delivery addresses selection page
+when the user comes from the addresses selection page
+And select a delivery address
+Then the system should create a new order
+
+Description
+As a logged user, I want to proceed to the checkout process
+
+Given the checkout page process
+When the user press the "Proceed to checkout" button
+Then the system should show the delivery addresses selection page
+
+Given the delivery addresses selection page
+when the user comes from the addresses selection page
+And select a delivery address
+Then the system should create a new order
